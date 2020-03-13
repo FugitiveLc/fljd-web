@@ -15,7 +15,7 @@
 .minNav,header,header >nav{height:50px;line-height: 50px;}
 /*导航条样式 头部*/
 nav > .menu > li,.showMenu>li{float:left; color:#fff;transition: .3s; cursor: pointer; position: relative;font: 15px;letter-spacing: 1px; line-height: 50px;padding:0 15px;}
-nav > .menu a{color:#fff;transition: .3s;}
+nav > .menu a{color:#fff;transition: .3s;display: block;}
 .menu li:hover > a,.menu .submenu:hover > span,.subordinate:hover>span,.breakMenu:hover{color:#21A4FE; }
 .breakMenu:after,.menu .submenu:before,.menu .subordinate:before{content: "";transition: .3s;position: absolute;   width: 8px;  height: 8px; background: url(https://www.liu-chao.cn/images/jt.png) no-repeat;}
  .breakMenu:after{transform: rotateZ(90deg);left: 5px;top:15px;}
