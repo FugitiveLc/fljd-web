@@ -1,0 +1,21 @@
+/*响应式处理*/
+/* header */
+@media screen and (max-width:1200px){
+	/* 主体 */
+	.f_body{padding:0 15px;width:100% !important;box-sizing: border-box;}
+}
+@media screen and (max-width:600px){
+	/* 头部 */
+	 body{min-width: 300px;overflow-x: hidden;}
+	.minNav{display: block;min-width: 300px;}
+	.menu{ width:max-content;height: 100%; background:#2A393C;position:fixed;left:-100%;}
+	.menu>li,.showMenu> li{display: block;min-width: 200px; float: none !important;}
+	 nav > .menu > li, .showMenu>li{padding-left:15px;line-height: 35px;border-bottom:1px dotted rgba(252,197,106,.2);}
+	 .menu li:hover > a,.menu .submenu:hover > span,.subordinate:hover>span,.breakMenu:hover{color:#FCC469; }
+	.menu .submenu:before,.menu .subordinate:before{display: block;right:5px;top:15px;}
+	 nav{position:fixed !important;height:0 !important;width:100%;background:rgba(0,0,0,0.1);}
+	.submenu> .sub,.subordinate>.sub{display: none;}
+	.submenu:hover > .sub,.subordinate:hover > .sub{display: none;}
+	/* 主体 */
+	.f_body{padding:0 10px;}
+}
